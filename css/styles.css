@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+hr {
+    border: 5px dashed #cbf1f5;
+    border-bottom: none;
+    width: 10%;
+    margin: 120px auto;
+}
+
+.top-container {
+    background-color: #cbf1f5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.middle-container {
+  margin-bottom: 20px;  
+}
+
+.bottom-container {
+    background-color: #cbf1f5;
+    padding: 40px 0 20px;
+    margin-top: 60px;
+}
+
+.footer-link {
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #337FED;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 120px auto;
+    text-align: left;
+}
+
+.react {
+    float: left;
+    margin-right: 30px;
+}
+
+.node {
+    float: right;
+    margin-left: 30px; 
+}
+
+.bot-cloud {
+    position: absolute;
+    left: 200px;
+    bottom: 300px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+.profile {
+    margin-top: 50px;
+}
+
+.intro {
+    width: 40%;
+    margin: 40px auto;
+
+}
+
+#site {
+    margin-bottom: 5px;
+}
+
+.closing {
+    width: 40%;
+    margin: auto;
+}
+
+/*########################### Typography ######################################*/
+
+h1 {
+    font-size: 5.6rem;
+    margin: 50px auto 0;
+    font-family: 'Sacramento', cursive;
+    color: #71c9ce;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: rgb(27, 27, 27);
+}
+
+p {
+    color: grey;
+    line-height: 2;
+}
+
+.btn {
+    background: #E3FDFD;
+    background-image: -webkit-linear-gradient(top, #E3FDFD, #A6E3E9);
+    background-image: -moz-linear-gradient(top, #E3FDFD, #A6E3E9);
+    background-image: -ms-linear-gradient(top, #E3FDFD, #A6E3E9);
+    background-image: -o-linear-gradient(top, #E3FDFD, #A6E3E9);
+    background-image: -webkit-gradient(to bottom, #E3FDFD, #A6E3E9);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: black;
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+    font-weight: 20;
+    padding: 20px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid grey 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 40px 0 60px;
+ }
+ 
+ .btn:hover {
+    border: solid #337FED 1px;
+    background: #71C9CE;
+    background-image: -webkit-linear-gradient(top, #71C9CE, #A6E3E9);
+    background-image: -moz-linear-gradient(top, #71C9CE, #A6E3E9);
+    background-image: -ms-linear-gradient(top, #71C9CE, #A6E3E9);
+    background-image: -o-linear-gradient(top, #71C9CE, #A6E3E9);
+    background-image: -webkit-gradient(to bottom, #71C9CE, #A6E3E9);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+ /*########################## Responsive ###########################*/
+ @media screen and (max-width: 600px) {
+    .mountain {
+        width: 400px;
+    }
+    .bot-cloud {
+        display: none;
+    }
+  }
