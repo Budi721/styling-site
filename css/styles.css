@@ -158,9 +158,13 @@ p {
  /*########################## Responsive ###########################*/
  @media screen and (max-width: 600px) {
     .mountain {
-        width: 400px;
+        width: 300px;
     }
     .bot-cloud {
         display: none;
+    }
+    
+    h1 {
+        font-size: 4rem;
     }
   }
